@@ -1,0 +1,25 @@
+//List of files which are indexed.
+fl = new Array();
+fl["0"]= "concepts/Bluetooth.html";
+fl["1"]= "tasks/composeSendEmail.html";
+fl["2"]= "tasks/insertBattery.html";
+fl["3"]= "tasks/insertSim.html";
+fl["4"]= "tasks/lockKeys.html";
+fl["5"]= "tasks/makeACall.html";
+fl["6"]= "tasks/makeConferenceCall.html";
+fl["7"]= "tasks/receiveFilesBluetooth.html";
+fl["8"]= "tasks/removingBattery.html";
+fl["9"]= "tasks/sendFileBluetooth.html";
+fl["10"]= "tasks/setUpEmail.html";
+fl["11"]= "tasks/turnBluetoothOnOff.html";
+fl["12"]= "topics/Specifications.html";
+fl["13"]= "topics/adjustVolume.html";
+fl["14"]= "topics/copyright.html";
+fl["15"]= "topics/deleteEmails.html";
+fl["16"]= "topics/email.html";
+fl["17"]= "topics/gettingStarted.html";
+fl["18"]= "topics/importantKeys.html";
+fl["19"]= "topics/introduction.html";
+fl["20"]= "topics/phoneBasics.html";
+fl["21"]= "topics/setup.html";
+var doStem = false;searchLoaded = true;

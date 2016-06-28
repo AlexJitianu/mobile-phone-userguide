@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="getting_started" path="topics/gettingStarted.html"/>
+   <appContext helpID="topic_2bh_hl5_qf" path="topics/introduction.html"/>
+   <appContext helpID="topic_d5p_h3b_fg" path="topics/Specifications.html"/>
+   <appContext helpID="task_ww1_fh3_rf" path="tasks/insertBattery.html"/>
+   <appContext helpID="task_3ml_qm3_rf" path="tasks/removingBattery.html"/>
+   <appContext helpID="task_5tn_3bl_wf" path="tasks/insertSim.html"/>
+   <appContext helpID="topic_4qz_gjm_2g" path="topics/importantKeys.html"/>
+   <appContext helpID="phone_basics" path="topics/phoneBasics.html"/>
+   <appContext helpID="task_4dn_bhv_qf" path="tasks/makeACall.html"/>
+   <appContext helpID="task_bqt_sbm_5f" path="tasks/makeConferenceCall.html"/>
+   <appContext helpID="topic_tj2_ppk_5f" path="topics/adjustVolume.html"/>
+   <appContext helpID="task_egl_jxl_3g" path="tasks/lockKeys.html"/>
+   <appContext helpID="setup" path="topics/setup.html"/>
+   <appContext helpID="email" path="topics/email.html"/>
+   <appContext helpID="task_r33_mtl_3g" path="tasks/setUpEmail.html"/>
+   <appContext helpID="task_ws1_v2g_2g" path="tasks/composeSendEmail.html"/>
+   <appContext helpID="topic_l4w_prg_2g" path="topics/deleteEmails.html"/>
+   <appContext helpID="bt" path="concepts/Bluetooth.html"/>
+   <appContext helpID="task_ptr_12m_3g" path="tasks/turnBluetoothOnOff.html"/>
+   <appContext helpID="task_lxf_bcp_tf" path="tasks/sendFileBluetooth.html"/>
+   <appContext helpID="task_yjv_ttp_tf" path="tasks/receiveFilesBluetooth.html"/>
+   <appContext helpID="copyright" path="topics/copyright.html"/>
+</map>
