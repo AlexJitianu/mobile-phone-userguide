@@ -2,10 +2,11 @@ language: something
 install:
 - echo "Installed"
 script:
-  - sh travis/publish.sh
+- sh travis/publish.sh
 after_success:
-  - sh travis/deploy.sh
+- sh travis/deploy.sh
 env:
   global:
   - DITAMAP=DITA/mobilePhone.ditamap
   - ANT_OPTS=-Xmx1024M
+  - secure: knZ+v6heSnWfCEYl3w5AjJaunHt3sHWzuErEKyJMOQg5Raxv2jFW/ZgHeeJO+K0wfReyp+VooWSCUv3pjnLgYNEQt7xWFp/B7VuBAsW+7EQXY++JwzwRbgD/3g3Z/tHR7eCMtMV7O3CTp2VuiM5hym38he0Zf4gG0hNnzHok39Q5Dn3Be9CG72QfmmOpzhkIChdaQmDMrDfwDrwC8hJBidWCjNoatOtwk38HqXuazGBfR5/LzfmwEhQs0KjLqAURYCJku/4DbseF2l9yYpkbI3lI4F2qCT0tqNigQ8HwRqxu2ZGNbVa+wndEP64XptDEuPChTIwCt3nlesI4JapnNenE/cljJovMd6n3Ul38P5EeWSW0nC87VIPMpLOLzxBvUIjrfs9xX2zA1zEaw4MpUMg1N5TKmfR68H7I+IDZ7oYCe2ELls0rmsuGw8iAYdPnNtoOPaqN1uK5ysu9T9gqAJrT7htE/TPE0f8id2+a4HF4PD66Z726tL/1B4YPqvTA9w4/BVfRPX/eiKTVurRAd3x92LOOdYEgmjLyIFPlHtgtajI+x4JgqnEwgGtXz3BuH4Fr+dd3PrPX5Y0yW0hgJozBfF21OXC8GLyTiZ4Pmy7nj0IdyzeZphxvklhRvBWDozm+Pb0fl1X0ZYTRcS+g22N9npblilbQyTyYXiFg9BY=
