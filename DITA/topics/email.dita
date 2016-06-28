@@ -4,7 +4,8 @@
   <title>E-mail</title>
   <shortdesc>Setting up your e-mail account.</shortdesc>
   <body>
-    <p><?oxy_comment_start author="Gary" timestamp="20120514T121417+0300" comment="Is too short. You did not mention sending and receiving emails using your phone."?>In
-      this section you find out how to set up an e-mail account. <?oxy_comment_end?></p>
+    <p><?oxy_comment_start author="Gary" timestamp="20120514T121417+0300" comment="Is too short. You did not mention sending and receiving emails using your phone." id="jqx_ksk_lw"?><?oxy_comment_start author="AlexJitianu" timestamp="20160628T153208+0300" comment="I&apos;m on it!" parentID="jqx_ksk_lw" mid="1"?>In
+      this section you find out how to set up an e-mail account.
+      <?oxy_comment_end mid="1"?><?oxy_comment_end?></p>
   </body>
 </topic>
