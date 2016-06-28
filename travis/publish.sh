@@ -29,4 +29,4 @@ export ANT_OPTS="$ANT_OPTS -Dwebapp.url=https://www.oxygenxml.com/webapp-demo-aw
 export ANT_OPTS="$ANT_OPTS -Dwebhelp.show.changes.and.comments=yes"
 
 
-dita-ot-2.2.3/bin/dita -i $DITAMAP -f webhelp-responsive
+dita-ot-2.2.3/bin/dita -i $DITAMAP -f webhelp-responsive 
