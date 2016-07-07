@@ -31,9 +31,9 @@
                         <term><?oxy_delete author="Tom" timestamp="20160328T111802+0300" content="Finish"?><?oxy_insert_start author="Tom" timestamp="20160328T111805+0300" comment="Someone please double check the name of this action." id="gsm_xkq_lv"?><?oxy_comment_start author="Mary" timestamp="20160328T111931+0300" comment="Yes, you are correct." parentID="gsm_xkq_lv"?>Done<?oxy_comment_end?><?oxy_insert_end?></term>
                     and the following notification is displayed: ‘Setup complete. Settings can be
                     edited in e-mail settings
-                    section’.<?oxy_comment_start author="Mary" timestamp="20160328T111628+0300" comment="The user has to test the connection before saving it, right?" id="ybq_rkq_lv"?><?oxy_comment_start author="Tom" timestamp="20160328T111748+0300" comment="Yes, you are right. There is a Test Connection button. John, can you please check that?" parentID="ybq_rkq_lv" id="zmc_kc2_mv" mid="3"?><?oxy_comment_start author="John" timestamp="20160330T082748+0300" comment="I&apos;ll take care of this." parentID="ybq_rkq_lv" mid="2"?>
+                    section’.<?oxy_comment_start author="Mary" timestamp="20160328T111628+0300" comment="The user has to test the connection before saving it, right?" id="ybq_rkq_lv" mid="3"?><?oxy_comment_start author="Tom" timestamp="20160328T111748+0300" comment="Yes, you are right. There is a Test Connection button. John, can you please check that?" parentID="ybq_rkq_lv" id="zmc_kc2_mv" mid="4"?><?oxy_comment_start author="John" timestamp="20160330T082748+0300" comment="I&apos;ll take care of this." parentID="ybq_rkq_lv"?><?oxy_comment_start author="AlexJitianu" timestamp="20160707T153708+0300" comment="THANK YOU!" parentID="ybq_rkq_lv" mid="2"?>
                     Click <term>OK</term>.
-                    <?oxy_comment_end mid="2"?><?oxy_comment_end mid="3"?><?oxy_comment_end?></cmd>
+                    <?oxy_comment_end mid="2"?><?oxy_comment_end?><?oxy_comment_end mid="4"?><?oxy_comment_end mid="3"?></cmd>
             </step>
             <step>
                 <cmd>After you have received this confirmation message, you can view and manage your
@@ -42,3 +42,4 @@
         </steps>
     </taskbody>
   </task>
+<?oxy_options track_changes="on"?>
