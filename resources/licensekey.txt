@@ -12,10 +12,10 @@ Version=18
 
 Number_of_Licenses=1
 
-Date=07-06-2016
+Date=07-26-2016
 
 Trial=8
 
-SGN=MCwCFDMBtrkk6H+hASEL6NmHwdp0SXATAhQn2Ni7Hv9lR3WK1i/SMKiuCeZeYw\=\=
+SGN=MCwCFHZ6T/Nueun8cMrmk4qLNDORhPK6AhRBrPJIN5uJQ/STB5H1i3rDPyWP8Q\=\=
 
 -------END-LICENSE-KEY-------
