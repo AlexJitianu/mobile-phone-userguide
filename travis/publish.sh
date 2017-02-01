@@ -1,12 +1,21 @@
-# Run Validate and Check for Completeness
+rm -rf out
 
+# 1. Run Validate and Check for Completeness
 wget http://mirror.oxygenxml.com/InstData/Editor/All/oxygen.tar.gz
 tar -zxvf oxygen.tar.gz
-
 
 cp resources/scriptinglicensekey.txt oxygen/scriptinglicensekey.txt
 
 oxygen/validateCheckDITA.sh -i $DITAMAP -s resources/settings.xml -r report.xml
+
+# Apply an XSLT for a little styling
+java -cp oxygen/lib/saxon9ee.jar net.sf.saxon.Transform  -s:report.xml -xsl:resources/result.xsl -o:out/result.html
+
+#cp report.xml out/report.xml
+
+
+# Run DITA Metrics Report
+
 
 
 # Genreate WebHelp responsive
@@ -28,8 +37,6 @@ bin/ant -f integrator.xml
 cd ..
 
 cp resources/licensekey.txt dita-ot-2.2.3/plugins/com.oxygenxml.webhelp/licensekey.txt
-
-rm -rf out
 
 REPONAME=`basename $PWD`
 PARENTDIR=`dirname $PWD`
