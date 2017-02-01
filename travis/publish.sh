@@ -1,7 +1,7 @@
 # Run Validate and Check for Completeness
 
 wget http://mirror.oxygenxml.com/InstData/Editor/All/oxygen.tar.gz
-tar -zxvf backup.tar.gz
+tar -zxvf oxygen.tar.gz
 
 
 cp resources/scriptinglicensekey.txt oxygen/scriptinglicensekey.txt
