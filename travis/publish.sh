@@ -9,12 +9,11 @@ cp resources/scriptinglicensekey.txt oxygen/scriptinglicensekey.txt
 oxygen/validateCheckDITA.sh -i $DITAMAP -s resources/settings.xml -r report.xml
 
 # Apply an XSLT for a little styling
-java -cp oxygen/lib/saxon9ee.jar net.sf.saxon.Transform  -s:report.xml -xsl:resources/report.xsl -o:out/result.html
-
-#cp report.xml out/report.xml
+java -cp oxygen/lib/saxon9ee.jar net.sf.saxon.Transform  -s:report.xml -xsl:resources/report.xsl -o:out/validation-report.html
 
 
 # Run DITA Metrics Report
+java -cp oxygen/lib/saxon9ee.jar net.sf.saxon.Transform  -s:$DITAMAP -xsl:oxygen/dita/report/report.xsl -o:out/metrics-report.html
 
 
 
