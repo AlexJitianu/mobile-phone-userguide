@@ -11,7 +11,7 @@
         <steps>
             <step id="firstStep">
                 <cmd> Insert the battery into the battery compartment. See the following image:
-                        <image href="../image/insertBattery.jpg" id="image_j5s_bnl_wf"
+                        <image href="../image/insertBattery2.jpg" id="image_j5s_bnl_wf"
                         placement="break"/></cmd>
             </step>
             <step id="lastStep">

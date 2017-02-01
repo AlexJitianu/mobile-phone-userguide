@@ -1,5 +1,19 @@
+# Run Validate and Check for Completeness
+
+wget http://mirror.oxygenxml.com/InstData/Editor/All/oxygen.tar.gz
+tar -zxvf backup.tar.gz
+
+
+cp resources/scriptinglicensekey.txt oxygen/scriptinglicensekey.txt
+
+oxygen/validateCheckDITA.sh -i $DITAMAP -s resources/settings.xml -r report.xml
+
+
+# Genreate WebHelp responsive
 wget http://mirror.oxygenxml.com/InstData/Editor/Webhelp/oxygen-webhelp.zip
 unzip oxygen-webhelp.zip 
+
+
 
 wget https://github.com/dita-ot/dita-ot/releases/download/2.2.3/dita-ot-2.2.3.zip
 unzip dita-ot-2.2.3.zip 

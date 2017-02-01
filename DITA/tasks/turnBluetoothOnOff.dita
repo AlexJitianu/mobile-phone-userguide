@@ -17,6 +17,9 @@
         </steps>
         
     </taskbody>
+    <related-links>
+        <link href="receiveFilesBluetooth.dita"/>
+    </related-links>
     
 </task>
 

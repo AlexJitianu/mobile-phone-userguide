@@ -6,7 +6,7 @@ Company=SYNCRO SOFT (Internal-use Only)
 
 Category=Enterprise
 
-Component=Scripting
+Component=Oxygen-Scripting
 
 Version=18
 
@@ -16,6 +16,6 @@ Date=01-31-2017
 
 Trial=15
 
-SGN=MC0CFBuvxyuMYlvPlMXZu9yysZl9zNTNAhUAiFRktN/RDsejWzzgWQQ8XuPYEEI\=
+SGN=MCwCFCcNK4Gi1GfN1HzL+rhE1mRpJChyAhRQ2PExtQkYPnbpy7SzH6CujmIV+A\=\=
 
 -------END-LICENSE-KEY-------

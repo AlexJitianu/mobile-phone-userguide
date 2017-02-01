@@ -41,9 +41,8 @@
 			<topicref href="topics/deleteEmails.dita"/>
 		</topicref>
 		<topicref href="concepts/Bluetooth.dita" product="X2000">
-			<topicref href="tasks/turnBluetoothOnOff.dita"/>
+			<topicref href="tasks/turnBluetoothOnOff.dita" product="X2000 X1000"/>
 			<topicref href="tasks/sendFileBluetooth.dita"/>
-			<topicref href="tasks/receiveFilesBluetooth.dita"/>
 		</topicref>
 	</topicref>
 	<topicref href="productSbjSchemeVals.ditamap" format="ditamap" type="subjectScheme"/>
