@@ -17,6 +17,9 @@ rev=$(git rev-parse --short HEAD)
 REPONAME=`basename $PWD`
 PARENTDIR=`dirname $PWD`
 USERNAME=`basename $PARENTDIR`
+
+cp report.xml out/report.xml
+
 cd out
 
 git init
