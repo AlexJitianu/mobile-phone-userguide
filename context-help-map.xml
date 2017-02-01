@@ -20,6 +20,5 @@
    <appContext helpID="bt" path="concepts/Bluetooth.html"/>
    <appContext helpID="task_ptr_12m_3g" path="tasks/turnBluetoothOnOff.html"/>
    <appContext helpID="task_lxf_bcp_tf" path="tasks/sendFileBluetooth.html"/>
-   <appContext helpID="task_yjv_ttp_tf" path="tasks/receiveFilesBluetooth.html"/>
    <appContext helpID="copyright" path="topics/copyright.html"/>
 </map>
