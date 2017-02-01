@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.oxygenxml.com/ns/report">
+<incident>
+<engine>oXygen</engine>
+<severity>warning</severity>
+<description>Condition &quot;X1000&quot; set on the &quot;product&quot; attribute can never be effective because it is not present in the list of conditions from the ancestors: &quot;X2000&quot;.</description>
+<systemID>/home/travis/build/AlexJitianu/mobile-phone-userguide/DITA/mobilePhone.ditamap</systemID>
+<type>Profile</type>
+<location>
+<start>
+<line>44</line>
+<column>4</column>
+</start>
+<end>
+<line>44</line>
+<column>74</column>
+</end>
+</location>
+</incident>
+<incident>
+<engine>oXygen</engine>
+<severity>warning</severity>
+<description>File not found: &quot;/home/travis/build/AlexJitianu/mobile-phone-userguide/DITA/image/insertBattery2.jpg&quot;.</description>
+<systemID>/home/travis/build/AlexJitianu/mobile-phone-userguide/DITA/tasks/insertBattery.dita</systemID>
+<type>Reference</type>
+<location>
+<start>
+<line>14</line>
+<column>37</column>
+</start>
+<end>
+<line>14</line>
+<column>66</column>
+</end>
+</location>
+<length>29</length>
+</incident>
+<incident>
+<engine>oXygen</engine>
+<severity>warning</severity>
+<description>File not found: &quot;/home/travis/build/AlexJitianu/mobile-phone-userguide/DITA/image/PhoneConference.png&quot;.</description>
+<systemID>/home/travis/build/AlexJitianu/mobile-phone-userguide/DITA/tasks/makeConferenceCall.dita</systemID>
+<type>Reference</type>
+<location>
+<start>
+<line>6</line>
+<column>59</column>
+</start>
+<end>
+<line>6</line>
+<column>89</column>
+</end>
+</location>
+<length>30</length>
+</incident>
+<incident>
+<engine>oXygen</engine>
+<severity>warning</severity>
+<description>Topic referenced in other topics but not in DITA map: &quot;file:/home/travis/build/AlexJitianu/mobile-phone-userguide/DITA/tasks/receiveFilesBluetooth.dita&quot;.</description>
+<systemID>/home/travis/build/AlexJitianu/mobile-phone-userguide/DITA/tasks/turnBluetoothOnOff.dita</systemID>
+<type>Reference</type>
+<location>
+<start>
+<line>21</line>
+<column>20</column>
+</start>
+<end>
+<line>21</line>
+<column>48</column>
+</end>
+</location>
+<length>28</length>
+</incident>
+</report>
