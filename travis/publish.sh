@@ -9,15 +9,15 @@ cp resources/scriptinglicensekey.txt oxygen/scriptinglicensekey.txt
 oxygen/validateCheckDITA.sh -i $DITAMAP -s resources/settings.xml -r report.xml
 
 # Apply an XSLT for a little styling
-java -cp oxygen/lib/saxon9ee.jar net.sf.saxon.Transform  -s:report.xml -xsl:resources/report.xsl -o:out/validation-report.html
+java -cp oxygen/lib/saxon9ee.jar net.sf.saxon.Transform  -s:report.xml -xsl:resources/report.xsl -o:validation-report.html
 
 
 # Run DITA Metrics Report
-java -cp oxygen/lib/saxon9ee.jar net.sf.saxon.Transform  -s:$DITAMAP -xsl:oxygen/dita/report/report.xsl -o:out/metrics-report.html
+java -cp oxygen/lib/saxon9ee.jar net.sf.saxon.Transform  -s:$DITAMAP -xsl:oxygen/dita/report/report.xsl -o:metrics-report.html
 
 
 
-# Genreate WebHelp responsive
+# Generate WebHelp responsive
 wget http://mirror.oxygenxml.com/InstData/Editor/Webhelp/oxygen-webhelp.zip
 unzip oxygen-webhelp.zip 
 
@@ -50,3 +50,7 @@ export ANT_OPTS="$ANT_OPTS -Dwebhelp.show.changes.and.comments=yes"
 
 
 dita-ot-2.2.3/bin/dita -i $DITAMAP -f webhelp-responsive 
+
+# Copy the reports
+cp validation-report.html out/reports/validation-report.html
+cp metrics-report.html out/reports/metrics-report.html
