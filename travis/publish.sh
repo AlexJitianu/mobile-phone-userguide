@@ -13,7 +13,7 @@ java -cp oxygen/lib/saxon9ee.jar net.sf.saxon.Transform  -s:report.xml -xsl:reso
 
 
 # Run DITA Metrics Report
-java -cp oxygen/lib/saxon9ee.jar;oxygen/lib/resolver.jar net.sf.saxon.Transform  -s:$DITAMAP -xsl:oxygen/frameworks/dita/report/report.xsl -catalog:oxygen/frameworks/dita/catalog.xml -o:metrics-report.html
+java -cp oxygen/lib/saxon9ee.jar:oxygen/lib/resolver.jar net.sf.saxon.Transform  -s:$DITAMAP -xsl:oxygen/frameworks/dita/report/report.xsl -catalog:oxygen/frameworks/dita/catalog.xml -o:metrics-report.html
 
 
 
