@@ -52,5 +52,6 @@ export ANT_OPTS="$ANT_OPTS -Dwebhelp.show.changes.and.comments=yes"
 dita-ot-2.2.3/bin/dita -i $DITAMAP -f webhelp-responsive 
 
 # Copy the reports
+mkdir out/reports
 cp validation-report.html out/reports/validation-report.html
 cp metrics-report.html out/reports/metrics-report.html
