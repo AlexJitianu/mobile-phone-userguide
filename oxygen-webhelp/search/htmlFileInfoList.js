@@ -21,4 +21,3 @@ fil["18"]= "topics/importantKeys.html@@@Important keys and shortcuts@@@The most 
 fil["19"]= "topics/introduction.html@@@Introduction@@@Welcome to Syncro mobile phone user guide. This user guide is focused on describing features and functionality of your mobile phone...";
 fil["20"]= "topics/phoneBasics.html@@@Phone Basics@@@This chapter shows how to perform basic tasks, like malikg a call or adjusting the volume...";
 fil["21"]= "topics/setup.html@@@Phone Setup@@@A description of several phone features and how to configure them...";
-fil["22"]= "validation-report.html@@@null@@@...";

@@ -22,5 +22,4 @@ fl["18"]= "topics/importantKeys.html";
 fl["19"]= "topics/introduction.html";
 fl["20"]= "topics/phoneBasics.html";
 fl["21"]= "topics/setup.html";
-fl["22"]= "validation-report.html";
 var doStem = false;searchLoaded = true;
