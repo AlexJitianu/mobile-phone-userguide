@@ -150,6 +150,28 @@ function showDivs() {
 }
 
 /**
+ * @description Check if an URL is available or not
+ * @param pageUrl - URL to be checked
+ * @returns {boolean} true if page is available
+ *                    false if page is not available
+ */
+function isPageAvailable(pageUrl){
+    debug("isPageAvailable(" + pageUrl + ")");
+    var toReturn = true;
+    var request = new XMLHttpRequest();
+    request.open('HEAD', pageUrl, false);
+    request.onload = function(){
+        if(request.status === 404 || request.status === 403){
+            debug(pageUrl + " does not exists!");
+            toReturn = false;
+        }
+    };
+    request.send();
+
+    return toReturn;
+}
+
+/**
  * @description Load dynamicURL to iFrame
  * @param dynamicURL - URL to be loaded
  */
@@ -166,6 +188,7 @@ function loadIframe(dynamicURL) {
         }
     } catch (e) {
         debug(e);
+        return false;
     }
 
     if (dynamicURL.indexOf("#") > 0) {
@@ -181,8 +204,14 @@ function loadIframe(dynamicURL) {
         tempLink = tempLinks[tempLinks.length-1];
     }
     if (tempLink.indexOf('.') != -1 && tempLink.indexOf('.htm') === -1 && tempLink.indexOf('.xhtm') === -1) {
-        debug('open in new window: ' + tempLink);
-        window.open(tempLink, '_blank');
+        tempLink = whUrl + encodeURI(decodeURI(tempLink));
+
+        if (isPageAvailable(tempLink)) {
+        	debug('open in new window: ' + tempLink);
+        	window.open(tempLink, '_blank');
+        } else {
+            debug("Page doesn't exist in current WebHelp output!");
+        }
         return;
     }
 

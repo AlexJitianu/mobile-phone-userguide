@@ -149,19 +149,21 @@ function highlightSearchTerm() {
 
         $body.removeHighlight();
         $relatedLinks.removeHighlight();
-    
-        var jsonString = decodeURIComponent(String(getParameter('hl')));
-        debug("jsonString: ", jsonString);
-        
-        if (jsonString !== undefined && jsonString != "") {
-            var words = jsonString.split(',');
-            debug("words: ", words);
-            
-            for (var i = 0; i < words.length; i++) {
-                debug('highlight(' + words[i] + ');');
-                $body.highlight(words[i]);
-                $relatedLinks.highlight(words[i]);
-								$childLinks.highlight(words[i]);
+
+        var hlParameter = getParameter('hl');
+        if (hlParameter != undefined) {
+            var jsonString = decodeURIComponent(String(hlParameter));
+            debug("jsonString: ", jsonString);
+            if (jsonString !== undefined && jsonString != "") {
+                var words = jsonString.split(',');
+                debug("words: ", words);
+
+                for (var i = 0; i < words.length; i++) {
+                    debug('highlight(' + words[i] + ');');
+                    $body.highlight(words[i]);
+                    $relatedLinks.highlight(words[i]);
+                    $childLinks.highlight(words[i]);
+                }
             }
         }
     }

@@ -246,9 +246,7 @@ $(document).ready(function () {
                                 }
                             } else {
                                 var newLocation = window.location.protocol + '//' + window.location.host;
-                                if (window.location.port!="") {
-                                    newLocation+=':' + window.location.port;
-                                }
+                                
                                 newLocation+= window.location.pathname + query + '#' + path;
                                 window.location=newLocation;
                             }
