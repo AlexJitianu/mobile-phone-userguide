@@ -18,6 +18,6 @@ fil["15"]= "topics/deleteEmails.html@@@Deleting one or more email messages@@@To 
 fil["16"]= "topics/email.html@@@E-mail@@@Setting up your e-mail account and more...";
 fil["17"]= "topics/gettingStarted.html@@@Getting Started@@@This chapter is designed to help you get started using you new Syncro phone as quickly as possible...";
 fil["18"]= "topics/importantKeys.html@@@Important keys and shortcuts@@@The most important keys and shortcuts of your phone are listed here: Table 1. Important keys Keys on your phone keyboard Send Make a call Answer a call End / Power End a call Return to the home menu...";
-fil["19"]= "topics/introduction.html@@@Introduction@@@Welcome to Syncro mobile phone user guide. This user guide is focused on describing features and functionality of your mobile phone...";
+fil["19"]= "topics/introduction.html@@@Introduction topic@@@Welcome to Syncro mobile phone user guide. This user guide is focused on describing features and functionality of your mobile phone...";
 fil["20"]= "topics/phoneBasics.html@@@Phone Basics@@@This chapter shows how to perform basic tasks, like malikg a call or adjusting the volume...";
 fil["21"]= "topics/setup.html@@@Phone Setup@@@A description of several phone features and how to configure them...";
