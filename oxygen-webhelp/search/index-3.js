@@ -1,5 +1,6 @@
 
 // Auto generated index for searching.
+w["phone menu"]="9*0";
 w["photocopying"]="14*0";
 w["physical"]="0*0";
 w["picture"]="9*26";
@@ -111,8 +112,6 @@ w["tom"]="10*0";
 w["tone"]="13*26,18*0";
 w["tones"]="18*0";
 w["too"]="16*0";
-w["topic"]="19*30";
-w["tory"]="19*10";
 w["trademarks"]="14*2";
 w["transfer"]="7*0";
 w["transferred"]="7*0";
